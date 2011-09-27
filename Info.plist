@@ -8,6 +8,9 @@
 	<string>InfoDictionaryCappuccino</string>
 	<key>CPPrincipalClass</key>
 	<string>CPApplication</string>
+	
+	<key>BoolValue</key>
+	<true/>
 	<key>StringValue</key>
 	<string>This is a text.</string>
 	<key>IntegerValue</key>
@@ -22,6 +25,8 @@
 	</array>
 	<key>DictionaryValue</key>
 	<dict>
+		<key>BoolValue</key>
+		<false/>
 		<key>StringValue</key>
 		<string>This is a Dictionarytext.</string>
 		<key>IntegerValue</key>

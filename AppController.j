@@ -20,6 +20,9 @@
 
     var label = [[CPTextField alloc] initWithFrame:CGRectMakeZero()];
 
+	//Read out the Bool Value
+	var boolValue = [[CPBundle mainBundle] objectForInfoDictionaryKey:@"BoolValue"];
+
 	//Read out the String Value
 	var stringValue = [[CPBundle mainBundle] objectForInfoDictionaryKey:@"StringValue"];
 	
@@ -35,7 +38,7 @@
 	//Read out the Dictionary Value
 	var dictionaryValue = [[CPBundle mainBundle] objectForInfoDictionaryKey:@"DictionaryValue"];
 
-    [label setStringValue:[CPString stringWithFormat:@"Integer: %d | Float: %f | String: %@ | Array: %@ | Dictionary: %@", integerValue, floatValue, stringValue, arrayValue, dictionaryValue]];
+    [label setStringValue:[CPString stringWithFormat:@"Bool: %@ | Integer: %d | Float: %f | String: %@ | Array: %@ | Dictionary: %@", boolValue, integerValue, floatValue, stringValue, arrayValue, dictionaryValue]];
     [label setFont:[CPFont boldSystemFontOfSize:24.0]];
 
     [label sizeToFit];
