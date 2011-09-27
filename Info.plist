@@ -20,8 +20,8 @@
 	<key>ArrayValue</key>
 	<array>
 		<string>Arrayvalue 1</string>
-		<string>Arrayvalue 2</string>
-		<string>Arrayvalue 3</string>
+		<integer>2</integer>
+		<real>0.3</real>
 	</array>
 	<key>DictionaryValue</key>
 	<dict>
