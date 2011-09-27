@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CPApplicationDelegateClass</key>
+	<string>AppController</string>
+	<key>CPBundleName</key>
+	<string>InfoDictionaryCappuccino</string>
+	<key>CPPrincipalClass</key>
+	<string>CPApplication</string>
+	<key>StringValue</key>
+	<string>This is a text.</string>
+	<key>IntegerValue</key>
+	<integer>1</integer>
+	<key>FloatValue</key>
+	<real>0.5</real>
+	<key>ArrayValue</key>
+	<array>
+		<string>Arrayvalue 1</string>
+		<string>Arrayvalue 2</string>
+		<string>Arrayvalue 3</string>
+	</array>
+	<key>DictionaryValue</key>
+	<dict>
+		<key>StringValue</key>
+		<string>This is a Dictionarytext.</string>
+		<key>IntegerValue</key>
+		<integer>2</integer>
+		<key>FloatValue</key>
+		<real>1.5</real>
+		<key>ArrayValue</key>
+		<array>
+			<string>Arrayvalue in Dic 1</string>
+			<string>Arrayvalue in Dic 2</string>
+			<string>Arrayvalue in Dic 3</string>
+		</array>
+	</dict>
+</dict>
+</plist>
